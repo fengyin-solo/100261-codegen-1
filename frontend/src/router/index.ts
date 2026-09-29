@@ -21,6 +21,7 @@ const Staffshift = () => import('@/views/staffshift/index.vue')
 const Runway = () => import('@/views/runway/index.vue')
 const Emergencyplan = () => import('@/views/emergencyplan/index.vue')
 const Qualitycheck = () => import('@/views/qualitycheck/index.vue')
+const Shuttlebus = () => import('@/views/shuttlebus/index.vue')
 
 const router = createRouter({
   history: createWebHistory(),
@@ -46,6 +47,7 @@ const router = createRouter({
     { path: '/runway', name: 'runway', component: Runway },
     { path: '/emergencyplan', name: 'emergencyplan', component: Emergencyplan },
     { path: '/qualitycheck', name: 'qualitycheck', component: Qualitycheck },
+    { path: '/shuttlebus', name: 'shuttlebus', component: Shuttlebus },
   ],
 })
 

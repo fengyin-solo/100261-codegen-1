@@ -267,3 +267,15 @@ class QualitycheckEntry(BaseModel):
     field_5: str | None = None  # 整改要求
     field_6: str | None = None  # 整改期限
     field_7: str | None = None  # 监察状态
+
+class ShuttlebusEntry(BaseModel):
+    """摆渡趟次明细结构。"""
+
+    field_0: str | None = None  # 趟次编号
+    field_1: str | None = None  # 航站楼
+    field_2: str | None = None  # 摆渡车编号
+    field_3: str | None = None  # 上车人数
+    field_4: str | None = None  # 旅客等待时长
+    field_5: str | None = None  # 登记时间
+    field_6: str | None = None  # 服务日期
+    field_7: str | None = None  # 趟次状态
